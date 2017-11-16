@@ -29,6 +29,8 @@ public class Paddle : MonoBehaviour {
         //we needed to create a new variable for the new paddle position since we cannot change
         //one coordinate (e.g. x coordinate) on its own
 
+        newPaddlePos.x = Mathf.Clamp(mousePosInUnits, -7.35f, 7.35f);
+
         gameObject.transform.position = newPaddlePos;
 
         // setting our object's position (the paddle) to the new calculated position.
