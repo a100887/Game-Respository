@@ -46,10 +46,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Ball.cs" />
+     <Compile Include="Assets\Scripts\Brick.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
+     <Compile Include="Assets\Scripts\LoseBorder.cs" />
      <Compile Include="Assets\Scripts\MusicPlayerScript.cs" />
+     <Compile Include="Assets\Scripts\Paddle.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>G:/4.2/Programming in Computer Games/Game Repository/Brick Breaker/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>G:/4.2/Programming in Computer Games/Repository/Brick Breaker/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Software/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
